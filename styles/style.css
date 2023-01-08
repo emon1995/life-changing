@@ -311,3 +311,33 @@
   margin-top: 5px;
   margin-left: 5px;
 }
+
+/* Calories section styles */
+.calories {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 113px;
+}
+
+.cal-details {
+  width: 50%;
+}
+
+.cal-title {
+  width: 388px;
+  font-weight: 500;
+  font-size: 68px;
+  color: #130f49;
+  margin-bottom: 43px;
+}
+
+.cal-subtitle {
+  width: 397px;
+  font-size: 24px;
+  color: #130f49;
+  opacity: 0.4;
+  margin-bottom: 45px;
+}
