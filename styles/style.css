@@ -341,3 +341,11 @@
   opacity: 0.4;
   margin-bottom: 45px;
 }
+
+/* Brand section styles */
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 113px;
+}
