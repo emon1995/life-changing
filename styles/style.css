@@ -120,6 +120,7 @@
   width: 70%;
   margin: auto;
   margin-bottom: 115px;
+  margin-top: 115px;
 }
 
 .target-details {
@@ -378,4 +379,169 @@
 
 .join-img {
   margin-top: 25px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 576px) {
+  .header {
+    background-size: 277.33px 622.01px;
+    /* background-size: 100% 100%; */
+  }
+  .head {
+    background-position: right 62px bottom -90px;
+  }
+  .nav {
+    margin: 57px 20px;
+  }
+
+  .nav img {
+    margin: 0 20px 0 0;
+  }
+
+  .life {
+    margin: 103px 20px 0 20px;
+  }
+
+  .life-title {
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+  .life-subtitle {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .target {
+    flex-direction: column;
+    margin-top: 130px;
+    gap: 100px;
+  }
+
+  .target-img {
+    width: 401px;
+    height: 431px;
+  }
+  .circle {
+    background-size: 108% 94%;
+  }
+  .target-details {
+    width: 305px;
+  }
+
+  .track {
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 100px;
+  }
+  .track-details {
+    margin-top: 51px;
+    width: 50%;
+    margin-left: -153px;
+  }
+  .track-img {
+    margin-top: 840px;
+  }
+  .track-img-des {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .track-img-title {
+    font-size: 55px;
+    width: 50%;
+    margin-left: 42px;
+  }
+  .track-food {
+    margin-left: 37px;
+  }
+  .track-details-title {
+    width: 329px;
+    height: 186px;
+    font-size: 30px;
+    margin-bottom: -23px;
+  }
+  .track-balanced {
+    margin-bottom: -9px;
+    width: 300px;
+  }
+  .track-barcode {
+    width: 300px;
+  }
+
+  .calories {
+    margin-top: 780px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .header {
+    background-size: 503.33px 933.01px;
+  }
+  .head {
+    background-position: right 70px bottom 1px;
+  }
+  .life {
+    margin: 103px 64px 0 80px;
+  }
+  .life-title {
+    font-size: 110px;
+  }
+
+  .target {
+    gap: 50px;
+    margin-top: -71px;
+    /* margin: 0 20px 115px 20px; */
+  }
+  .target-title {
+    font-size: 44px;
+  }
+  .target-subtitle {
+    font-size: 18px;
+  }
+  .target-img {
+    background-repeat: no-repeat;
+  }
+  .circle {
+    background-repeat: no-repeat;
+    background-size: 100% 66%;
+  }
+
+  .track {
+    flex-direction: column;
+    background-size: 87% 100%;
+    gap: 10px;
+    padding: 0 10px;
+    margin-top: -180px;
+  }
+
+  .track-img {
+    width: 50%;
+  }
+  .track-details {
+    width: 50%;
+  }
+  .track-details-title {
+    height: 100px;
+    font-size: 35px;
+  }
+  .track-img-des {
+    margin-top: 680px;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .track-img-title {
+    width: 0;
+    font-size: 64px;
+  }
+  .track-balanced {
+    width: 401px;
+  }
+  .track-barcode {
+    width: 370px;
+  }
+}
+
+.hide {
+  display: none;
 }
